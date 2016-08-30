@@ -226,10 +226,8 @@ impl Headers {
     }
 
     // https://fetch.spec.whatwg.org/#concept-header-extract-mime-type
-    pub fn extract_mime_type(&self) -> ByteString {
-        self.Get(ByteString::new(b"Content-Type".to_vec())).
-            unwrap_or(Some(ByteString::new(b"".to_vec()))).
-            unwrap_or(ByteString::new(b"".to_vec())).to_lower()
+    pub fn extract_mime_type(&self) -> Vec<u8> {
+        self.header_list.borrow().get_raw("content-type").map_or(vec![], |v| v[0].clone())
     }
 }
 
