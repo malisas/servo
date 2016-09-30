@@ -64,6 +64,7 @@ WEBIDL_STANDARDS = [
     "//encoding.spec.whatwg.org",
     "//fetch.spec.whatwg.org",
     "//html.spec.whatwg.org",
+    "//jeenalee.github.io",
     "//url.spec.whatwg.org",
     "//xhr.spec.whatwg.org",
     "//w3c.github.io",

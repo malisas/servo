@@ -248,6 +248,7 @@ pub mod dedicatedworkerglobalscope;
 pub mod document;
 pub mod documentfragment;
 pub mod documenttype;
+pub mod doge;
 pub mod domexception;
 pub mod domimplementation;
 pub mod dommatrix;
