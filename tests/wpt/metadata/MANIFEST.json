@@ -37715,6 +37715,12 @@
     "deleted_reftests": {},
     "items": {
       "testharness": {
+        "doge/doge_basic.html": [
+          {
+            "path": "doge/doge_basic.html",
+            "url": "/doge/doge_basic.html"
+          }
+        ],
         "html/semantics/forms/the-form-element/form-action-url.html": [
           {
             "path": "html/semantics/forms/the-form-element/form-action-url.html",
